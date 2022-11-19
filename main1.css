@@ -1,0 +1,300 @@
+.navbar {
+    transition: all 0.4s;
+    background-color: black;
+}
+
+nav {
+    background-color: transparent !important;
+    color: white;
+}
+
+.tpbg {
+    background-color: black !important;
+}
+
+nav i {
+    color: white;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background-color: #fff;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+/* Caption Start Here */
+
+.carousel-caption {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    font-size: 20px;
+}
+
+.carousel-captions,
+p {
+    color: rgb(248, 248, 248);
+    font-size: 30px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    /* position: absolute; */
+    margin: 30px 30px;
+    margin-bottom: 10px;
+    width: 270px;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: -6px 1px orange;
+}
+
+.image img {
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.card-title {
+    text-align: center;
+    color: orange;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 orangered;
+}
+
+
+/* My CSS */
+
+.logo {
+    width: 200px;
+    height: 70px;
+}
+
+.heading1 {
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 100px;
+    margin-left: 550px;
+    font-size: 40px;
+    font-weight: 900px;
+    /* border: 10px solid black; */
+    width: 450px;
+    height: 200px;
+    padding: 12px;
+}
+
+.area {
+    width: 500px;
+    height: 150px;
+    position: relative;
+    margin-top: 100px;
+    /* border: 10px solid black; */
+    margin-left: 550px;
+}
+
+.area p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    /* left: 93px; 
+    top: 21px;  */
+    /* margin-top: 300px; */
+    width: 500px;
+    height: 90px;
+    /* border: 10px solid black; */
+}
+
+.areas {
+    width: 900px;
+    height: 150px;
+    position: relative;
+    margin-top: 100px;
+    /* border: 10px solid black; */
+    margin-left: 400px;
+    font-weight: 900;
+}
+
+img {
+    width: 100%;
+    height: 710px;
+}
+
+.firstpage {
+    padding: -10px;
+    margin: -10px -10px 0px -10px;
+}
+
+div #h2 {
+    position: relative;
+    color: black;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 700;
+    width: 200px;
+    margin-left: 490px;
+    margin-top: 40px;
+}
+
+#industries {
+    position: relative;
+    /* background: url(cr2.jpg); */
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("cr2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1150px;
+    height: 1400px;
+    border: 10px solid white;
+    /* box-sizing: border-box; */
+    padding: 0px;
+    /* filter: brightness(50%); */
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+#text-box {
+    position: absolute;
+    width: 1100px;
+    height: 1150px;
+    /* box-sizing: border-box; */
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+div.gallery {
+    background-color: #fff;
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 330px;
+    /* border-spacing: 40px 40px; */
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 300px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: navy;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.block {
+    display: inline-block;
+    padding: 0px;
+    width: 550px;
+    height: 300px;
+    border: 0px solid black;
+    border-radius: 10px;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    /* box-shadow: -6px -8px 10px 0 black; */
+    background-color: white;
+}
+
+.block:hover {
+    /* box-shadow: 0 8px 16px 0 black; */
+}
+
+.container {
+    text-align: center;
+}
+
+.block img {
+    width: 470px;
+    height: 150px;
+}
+
+.block p {
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
